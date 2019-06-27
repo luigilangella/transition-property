@@ -1,0 +1,20 @@
+.box {
+    width: 150px;
+    height: 0;
+    margin:25px;
+    background-color: #000;
+    animation-name: growing;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes growing {
+    from{
+        height: 0;
+    }
+    to{
+        height: 150px;
+    }
+}
